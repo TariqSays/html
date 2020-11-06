@@ -1,42 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Session15</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
-    <div class="responsive">
-    <div class="gallery">
-        <img src="mountains.jpg">
-        <div class="txt">Add a description of Image here</div>
-    </div>
-</div>
 
-<div class="responsive">
-    <div class="gallery">
-        <img src="mountains.jpg">
-        <div class="txt">Add a description of Image here</div>
-    </div>
-</div>
+    <h1>Javascript Webinar Registration Form</h1>
+    <div>
+    <form>
+        <label for="fname">First Name</label><br/>
+        <input type="text" id="fname" name="firstname" placeholder="first name..." />
+        <br/>
+        <label for="lname">Last Name</label><br/>
+        <input type="text" id="lname" name="lastname" placeholder="last name..." />
 
-<div class="responsive">
-    <div class="gallery">
-        <img src="mountains.jpg">
-        <div class="txt">Add a description of Image here</div>
-    </div>
-</div>
+        <br/>
+        <label for="country">Country</label><br/>
+        <select id="country" name="country">
+            <option value="pakistan">Pakistan</option>
+            <option value="usa">USA</option>
+            <option value="england">England</option>
+            <option value="turkey">Turkey</option>
+            <option value="malaysia">Malaysia</option>
+        </select>
+        <br/>
+        <label for="mail">Email</label><br/>
+        <input type="email" id="mail" name="email" placeholder="your email...">
 
-<div class="responsive">
-    <div class="gallery">
-        <img src="mountains.jpg">
-        <div class="txt">Add a description of Image here</div>
-    </div>
-</div>
+        <br/>
+        <label for="uni">University</label><br/>
+        <input type="text" id="uni" name="university" placeholder="your university...">
 
-    
+        <input type="submit" value="Submit">
+    </form>
+    </div>
 
 </body>
+
 </html>
