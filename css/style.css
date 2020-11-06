@@ -1,0 +1,48 @@
+div.gallery{
+ 
+    border: 1px solid skyblue;
+ 
+}
+
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+
+.txt{
+    padding: 12px;
+    text-align: center;
+}
+
+/* .aut{
+    margin: 0 auto;
+    width: 50%;
+} */
+
+.gallery:hover{
+    border: 2px solid blue;
+}
+
+.responsive{
+    float: left;
+    width: 24.99%;
+    padding: 0 6px;
+}
+
+
+@media screen and (max-width:700px){
+    .responsive{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .responsive{
+        width: 100%;
+    }
+}
