@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   
+    <div>
+        <h2>Javascript Calculator</h2><br>
+        <form name="forms">
+            <input type="text" name="input"><br>
+
+            <input type="button" value="1" onclick="forms.input.value +='1'">
+            <input type="button" value="2" onclick="forms.input.value +='2'">
+            <input type="button" value="3" onclick="forms.input.value +='3'">
+            <input type="button" value="4" onclick="forms.input.value +='4'">
+            <br>
+            <input type="button" value="5" onclick="forms.input.value +='5'">
+            <input type="button" value="6" onclick="forms.input.value +='6'">
+            <input type="button" value="7" onclick="forms.input.value +='7'">
+            <input type="button" value="8" onclick="forms.input.value +='8'">
+            <br>
+            <input type="button" value="9" onclick="forms.input.value +='9'">
+            <input type="button" value="0" onclick="forms.input.value +='0'">
+            <input type="button" value="=" onclick="forms.input.value =eval(forms.input.value)" id="equal">
+            <br>
+            <input type="button" value="+" onclick="forms.input.value +='+'">
+            <input type="button" value="-" onclick="forms.input.value +='-'">
+            <input type="button" value="*" onclick="forms.input.value +='*'">
+            <input type="button" value="/" onclick="forms.input.value +='/'">
+            <br>
+            <input type="button" value="Clear All" onclick="forms.input.value = ''" id="clear">
+
+        </form>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
