@@ -1,0 +1,100 @@
+.container{
+    width: 400px;
+    top: 50%;
+    border-radius: 9px;
+    left: 50%;
+    padding: 11px;
+    transform :translate(-50%,-50%);
+    background-color: rgb(29, 33, 34);    
+    position: absolute;
+    text-align: center;
+}
+h1,h2,h3,h4,h5{
+    color: white;
+    font-family: monospace;
+}
+.first>h1{
+    text-decoration: underline;
+    margin-bottom: 36px;
+}
+.second{
+    width: 100%;
+}
+
+.second>.income{
+    border: 1px solid #16a085;
+    border-radius: 8px;
+    width: 49%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.second>.expense{
+    border: 1px solid #16a085;
+    border-radius: 8px;
+    width: 49%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+input[type="text"]{
+    padding: 14px 14px;
+    max-width: 370px;
+    margin: 5px;
+    color: white;
+    border: 1px solid #3498db;
+    background: none;
+    font-size: 20px;
+    outline: none;
+    border-radius: 13px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+label{
+    font-size: 13px;
+    color: white;
+    font-family: monospace;
+}
+
+.third{
+    margin-top: 50px;    
+}
+
+input[type="submit"]{
+    padding: 10px 14px;
+    margin: 5px;
+    color: white;
+    border: 1px solid #2ecc71;
+    background: none;
+    border-radius: 13px;
+    outline: none;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+ul>li{
+    color: white;
+    font-size: 20px;
+}
+
+.histor{
+    width: 100%;
+    color: white;
+}
+.detail{
+    width: 48%;
+    display: inline-block;
+    color: white;
+}
+.damount{
+    width: 48%;
+    display: inline-block;
+    color: white;
+}
+
+.red{
+    border-right:3px solid red;
+}
+
+.green{
+    border-right:3px solid green;
+}
