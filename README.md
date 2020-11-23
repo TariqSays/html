@@ -1,4 +1,3 @@
 # html + css + javascript
-smarter-way-to-learn-html
-es6
-Dom
+### html and css desing and build websites - jon duckett
+### smarter-way-to-learn-js
