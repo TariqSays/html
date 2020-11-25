@@ -1,4 +1,4 @@
 # html + css + javascript
-### html and css desing and build websites - jon duckett
-### smarter way to learn js Mark Myers
+## html and css desing and build websites - jon duckett
+## smarter way to learn js Mark Myers
     
