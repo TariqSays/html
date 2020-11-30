@@ -3,24 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To Do App</title>
-    <link rel="stylesheet" href="style.css">    
+    <title>to-do-app</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-    <div>
-        <input  placeholder="Enter todo" type="text" id="todo-item">
-        <button onclick="onTodo()">Add Item</button>
-        <button onclick="deleteAll()">Delete All</button>
-    </div>
+    <div class="box">
+        <h2>to-do-app</h2>
+        <input type="text" placeholder="enter your item" id="item">
+        <button onclick="add()">ADD</button>
+        <button onclick="delall()">DEL ALL</button>
 
-    <div>
         <ul id="list">
-
+                
         </ul>
+        <h2>i love javascript</h2>
     </div>
 
 
-    <script src="script.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>

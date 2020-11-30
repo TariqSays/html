@@ -1,3 +1,39 @@
 body{
+    padding: 0;
+    margin: 0;
+    background-color: #34495e;
+    font-family: monospace;
+    color: white;
+}
+
+.box{
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    background-color: #191919;
     text-align: center;
+}
+
+input[type="text"]{
+    background-color: transparent;
+    width: 250px;
+    padding: 10px 14px;
+    color: white;
+    border: 2px solid #3498db;
+    border-radius: 6px;
+    margin: 10px auto;
+    outline: none;
+}
+
+
+button{
+    background-color: transparent;
+    padding: 10px 14px;
+    color: white;
+    border: 2px solid #2ecc71;
+    border-radius: 6px;
+    margin:4px;
+    outline: none;
 }
